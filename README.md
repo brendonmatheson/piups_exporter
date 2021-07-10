@@ -24,6 +24,10 @@ Note 52pi have the following boards that do not support reading power metrics vi
 
 So far this project has ben tested with the EP-0118.  It may or may not currently work with the EP-0114 and EP-0136 boards.
 
+## License
+
+This work is offered under the terms of the MIT license.  See the [LICENSE](LICENSE) file for details.
+
 ## Build script_exporter Base Image
 
 This piups_exporter project is built on [Rico Berger's script_exporter](https://github.com/ricoberger/script_exporter) project.  There is an [image for script_exporter](https://hub.docker.com/r/ricoberger/script_exporter) on Docker Hub but it only supports amd64 architecture so we need to rebuild it for armv7 so we can use it on our Raspberry Pi.

@@ -1,3 +1,10 @@
+# piups_exporter
+# Copyright (c) 2021, Brendon Matheson
+#
+# http://brendonmatheson.com/
+#
+# This work is offered under the terms of the MIT license.  See the LICENSE file for details.
+
 FROM ricoberger/script_exporter:latest as build
 
 
