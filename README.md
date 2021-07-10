@@ -137,7 +137,7 @@ Now add a job to your Prometheus server's config.  The only thing you have to ch
 ```yaml
   - job_name: "piups"
     metrics_path: "/probe"
-	params:
+    params:
       script: ["piups"]
     static_configs:
       - targets:
