@@ -87,7 +87,7 @@ piups_shunt_voltage_millivolts 7.080
 
 Note that the script_exporter exposes script-derived metrics using the `/probe` endpoint and publishes it's own gostats on `/metrics`.  See the script_exporter documentation for further elaboration on how this works.
 
-## Production Deployment on Docker Swarm
+## Production Deployment on Docker Compose
 
 `piups_exporter` can be run in Docker Compose using the supplied `docker-compose.yaml`:
 
