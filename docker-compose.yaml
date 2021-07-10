@@ -1,0 +1,11 @@
+version: "3"
+services:
+
+  piups_exporter:
+    devices:
+      - "/dev/i2c-1:/dev/i2c-1"
+    image: "brendonmatheson/piups_exporter:latest"
+    ports:
+      - "9469:9469"
+    restart: "always"
+
